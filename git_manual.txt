@@ -1,0 +1,27 @@
+
+マスターにファイルをプッシュする方法
+
+git repositoryを作成する>git init
+gitフォルダに移りgit initを実行する
+
+githubにリポジトリを登録する>git remote add origin (https://github.com/tyk1228/lisp.git)かっこ内はgithub上のリポジトリをダウンロードする
+
+githubに登録するファイルを指定>git add (p_side.lsp) カッコ内はgithubにアップするファイル名
+
+gitの状態> git status
+
+
+gitをコミットする> git commit -m ("first commit")
+カッコ内はdiscription　必ずコメントを記入する
+
+githubにリモート接続できているか>git remote -v
+
+
+コミットができているか確認> git log
+
+コミットができていたらファイルをpushする> git push origin master
+
+
+ブランチにプッシュする方法（要確認）
+branch> git checkout -b pside
+
