@@ -1,3 +1,13 @@
+git install
+最新バージョンをインストールする
+初期設定
+git config --global user.name "waramaki"
+設定したユーザ名が設定されたか確認
+git config --global user.name
+メールアドレスの設定
+git config --global user.email "waramaki@t-y-k.co.jp"
+メールアドレスの確認
+git config --global user.email
 
 
 マスターにファイルをプッシュする方法
