@@ -34,3 +34,6 @@ branch> git checkout -b pside
 
 削除するコマンド
 >git rm
+
+githubからファイルをダウンロードする
+>git clone (https://github.com/t-y-k/KSMF.git)かっこ内はgithub上のリポジトリをダウンロードする
